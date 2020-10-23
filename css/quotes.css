@@ -1,0 +1,76 @@
+body{
+	background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #374566), color-stop(100%, #010203));
+	background-image: -webkit-radial-gradient(#374566, #010203);
+	background-image: -moz-radial-gradient(#374566, #010203);
+	background-image: -o-radial-gradient(#374566, #010203);
+	background-image: radial-gradient(#374566, #010203);
+	color: white;
+}
+header img{
+	width: 7%;
+}
+small{
+	font-size: 110%;
+}
+.active{
+	font-weight: bold;
+}
+@font-face{
+	font-family: 'roboto';
+	src: url('../fonts/Roboto-Regular.tff');
+	font-style: normal;
+	font-weight: 400;
+}
+.heading{
+	margin: 1.5% 3.2%;
+	font-size: 150%;
+	font-family: roboto;
+}
+.container{
+	margin-top: 1.5%;
+}
+
+.carousel{
+	text-align: center;
+	display: none;
+	margin: 1%;
+	height: 35%;
+	font-family: cursive;
+}
+
+.carousel-control-prev{
+	height: 75%;
+}
+
+.carousel-control-next{
+	height: 75%;
+}
+
+blockquote{
+	text-align: center;
+	padding: 0 5%;
+	font-family: cursive;
+}
+
+p{
+	font-size: 120%;
+}
+
+cite{
+	font-family: 'Dancing Script' , cursive;
+	font-size: 130%;
+	color: silver;
+}
+
+.poreAdd{
+	display: none;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1100px){
+	body{
+		font-size: 150%;
+	}
+	.carousel{
+		font-size: 140%;
+	}
+}

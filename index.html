@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JP Site</title>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font awesome -->
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    
+</head>
+<body>
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!--Jumbotron-top-->
+    <div class="jumbotron">
+    	<img src="images/topJPLogo.jpg" alt="Website Logo">
+	  <h1>Peace be upon you</h1>
+	  <p class="lead">Welcome mate</p>
+	</div>
+
+	<!--Nav & Links-->
+	<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+	  <a class="navbar-brand" href="index.html">JP</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+	    <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="link-parent">
+	      <li class="nav-item links">
+	        <a class="nav-link active" href="index.html"><b>Home</b></a>
+	      </li>
+	      <li class="nav-item links">
+	        <a class="nav-link" href="games.html">Games</a>
+	      </li>
+	      <li class="nav-item links">
+	        <a class="nav-link" href="#">Apps</a>
+	      </li>
+	      <li class="nav-item links">
+	        <a class="nav-link" href="quotes.html">Quotes</a>
+	      </li>
+	      <li class="nav-item links">
+	        <a class="nav-link" href="#">Drawings</a>
+	      </li>
+	      <li class="nav-item links">
+	        <a class="nav-link" href="#about" onclick="aboutButton()">About</a>
+	      </li>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0" action="https://www.google.com/search" method="GET">
+	      <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    </form>
+	  </div>
+	</nav>
+	
+
+	<div class="container brief">
+		<a href="games.html" class="btn btn-primary"><h2>Games</h2></a>
+		<p>This sections is for games that you can download to your device and play. There are some games which I developed. I really appreciate if you kindly visit those games. And others are from another developers. You will find brief in that page. Thank you <i class="fas fa-heart"></i></p>
+	</div>
+
+	<div class="container brief">
+		<a href="#" class="btn btn-sm btn-primary"><h2>Apps</h2></a>
+		<p>This sections is for apps. It's not developed yet. I have intention to develop apps in future. So It's coming soon I hope so. Thank you for your patience<i class="fas fa-heart"></i></p>
+	</div>
+
+	<div class="container brief">
+		<a href="quotes.html" class="btn btn-primary"><h2>Quotes</h2></a>
+		<p>Qoutes that can make your day.<br>Depression, Love, Life. That can make you think over again</p>
+	</div>
+
+	<div class="container brief">
+		<a href="#" class="btn btn-primary"><h2>Drawings</h2></a>
+		<p>Some hand-made cool drawing stuffs from me and my friends. Check those out and give them a thumbs up if you like. No copy please. Thank you<i class="fa fa-heart"></i></p>
+	</div>
+
+	<div class="container brief">
+		<a href="#about" onclick="aboutButton()" class="btn btn-primary"><h2>About</h2></a>
+		<p>About the developer? Check out below to know. You want to learn web designing? It's easy. Go and checkout YouTube channels, PDFs, Courses</p>
+	</div>
+
+	<footer class="container" id="about">This site is under construction. Developed by <em>Jarif Islam</em><a href="https://www.facebook.com/JarifIslam001/"><i class="fab fa-facebook fa-2x"></i></a><span id="arrow">&lt;---</span></footer>
+	<script src="js/allPage.js"></script>
+</body>
+</html>

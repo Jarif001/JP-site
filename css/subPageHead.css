@@ -1,0 +1,11 @@
+header{
+	background: rgb(48,67,119);
+	background: linear-gradient(90deg, rgba(0,65,210,1) 0%, rgba(9,30,121,1) 50%, rgba(0,65,210,1) 100%);
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	color: silver;
+}
+#arrow{
+	display: none;
+}

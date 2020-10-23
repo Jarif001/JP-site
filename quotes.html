@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>JP Quotes</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<!-- Font awesome -->
+		<link rel="stylesheet" type="text/css" href="css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/subPageHead.css">
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/quotes.css">
+	</head>
+	<body>
+		<!-- Optional JavaScript -->
+		    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+		     <header><img src="images/topJPLogo.jpg" alt="Website Logo">
+	    	<h1>Quotes</h1>
+	    </header>
+
+	    <!--Nav & Links-->
+	<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+	  <a class="navbar-brand" href="index.html">JP</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+	    <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="link-parent">
+	      <li class="nav-item links">
+	        <a class="nav-link" href="index.html"><b>Home</b></a>
+	      </li>
+	      <li class="nav-item links">
+	        <a class="nav-link" href="games.html">Games</a>
+	      </li>
+	      <li class="nav-item links">
+	        <a class="nav-link" href="#">Apps</a>
+	      </li>
+	      <li class="nav-item links">
+	        <a class="nav-link active" href="quotes.html">Quotes</a>
+	      </li>
+	      <li class="nav-item links">
+	        <a class="nav-link" href="#">Drawings</a>
+	      </li>
+	      <li class="nav-item links">
+	        <a class="nav-link" href="#about" onclick="aboutButton()">About</a>
+	      </li>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0" action="https://www.google.com/search" method="GET">
+	      <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    </form>
+	  </div>
+	</nav>
+
+	<div>
+		<p class="heading">There are many quotes that can make your day. That can make you think twice and over again. There are three categories. If you click or press on the category name, quotes will be shown in slideshow style. Hope you will like it...</p>
+	</div>
+
+	<!-- Qoutes er jayga-->
+
+	<!--Life-->
+
+	<div class="container">
+		<div id="life">
+			<h2><button class="btn btn-lg btn-info" onclick="carouselDisplay('carouselLife', 'normalLife')">Life</button></h2><small class="text-muted">
+      Click the button
+    </small>
+			
+			<div id="carouselLife" class="carousel slide" data-ride="carousel" data-interval="false">
+			  <div class="carousel-inner" id="caroLife">
+			    <div class="carousel-item active">
+			      	<blockquote class="blockquote border-bottom border-left border-right">
+						<p>Take all the challenges you get. Because it might be the difference between success and failure</p>
+						<p class="blockquote-footer text-right"><cite>Jarif Islam</cite></p>
+					</blockquote>
+			    </div>
+			    <div class="carousel-item">
+			      	<blockquote class="blockquote border-bottom border-left border-right">
+						<p>Life will give you many chances. But one chance may not come twice</p>
+						<p class="blockquote-footer text-right"><cite>Saad Abdullah</cite></p>
+					</blockquote>
+			    </div>
+			    <div class="carousel-item">
+			      	<blockquote class="blockquote border-bottom border-left border-right">
+						<p>Quote</p>
+						<p class="blockquote-footer text-right"><cite>Name</cite></p>
+					</blockquote>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselLife" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselLife" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+
+			<div id="normalLife">
+				<blockquote class="blockquote border-bottom border-left border-right">
+					<p>Take all the challenges you get. Because it might be the difference between success and failure</p>
+					<p class="blockquote-footer text-right"><cite>Jarif Islam</cite></p>
+				</blockquote>
+				<blockquote class="blockquote border-bottom border-left border-right">
+					<p>Life will give you many chances. But one chance may not come twice</p>
+					<p class="blockquote-footer text-right"><cite>Saad Abdullah</cite></p>
+				</blockquote>
+				<blockquote class="blockquote border-bottom border-left border-right">
+					<p>Quote</p>
+					<p class="blockquote-footer text-right"><cite>Name</cite></p>
+				</blockquote>
+			</div>
+		</div>
+		<button class="btn btn-success float-left poreAdd" onclick="addTo('caroLife', 'normalLife', 0)">Add</button>
+		<button class="btn btn-primary float-right" id="lifeAdd" onclick="addQuotes('#life', 0)">Add more</button>
+		<div class="clearfix"></div>
+	</div>
+
+	<!--Love-->
+
+	<div class="container">
+		<div id="love">
+			<h2><button class="btn btn-lg btn-info" onclick="carouselDisplay('carouselLove', 'normalLove')">Love</button></h2><small class="text-muted">
+      Click the button
+    </small>
+
+			<div id="carouselLove" class="carousel slide" data-ride="carousel" data-interval="false">
+			  <div class="carousel-inner" id="caroLove">
+			    <div class="carousel-item active">
+			      	<blockquote class="blockquote border-bottom border-left border-right">
+						<p>Always make your loved one feel like he/she is loved. Never let your love down nor lose. Just be careful that it's the right person</p>
+						<p class="blockquote-footer text-right"><cite>Jarif Islam</cite></p>
+					</blockquote>
+			    </div>
+			    <div class="carousel-item">
+			      	<blockquote class="blockquote border-bottom border-left border-right">
+						<p>If you love something let it go. If it comes back, it's yours. And if it doesn't, it was never yours</p>
+						<p class="blockquote-footer text-right"><cite>Anonymous</cite></p>
+					</blockquote>
+			    </div>
+			    <div class="carousel-item">
+			      	<blockquote class="blockquote border-bottom border-left border-right">
+						<p>The successful marriage is not when you can live in peace with your spouse, but when you can't live in peace without him/her</p>
+						<p class="blockquote-footer text-right"><cite>Yasir Qadhi</cite></p>
+					</blockquote>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselLove" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselLove" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+
+			<div id="normalLove">
+			<blockquote class="blockquote border-bottom border-left border-right">
+				<p>Always make your loved one feel like he/she is loved. Never let your love down nor lose. Just be careful that it's the right person</p>
+				<p class="blockquote-footer text-right"><cite>Jarif Islam</cite></p>
+			</blockquote>
+			<blockquote class="blockquote border-bottom border-left border-right">
+				<p>If you love something let it go. If it comes back, it's yours. And if it doesn't, it was never yours</p>
+				<p class="blockquote-footer text-right"><cite>Anonymous</cite></p>
+			</blockquote>
+			<blockquote class="blockquote border-bottom border-left border-right">
+				<p>The successful marriage is not when you can live in peace with your spouse, but when you can't live in peace without him/her</p>
+				<p class="blockquote-footer text-right"><cite>Yasir Qadhi</cite></p>
+			</blockquote>
+			</div>
+		</div>
+		<button class="btn btn-success float-left poreAdd" onclick="addTo('caroLove', 'normalLove', 1)">Add</button>
+		<button class="btn btn-primary float-right" id="loveAdd" onclick="addQuotes('#love', 1)">Add more</button>
+		<div class="clearfix"></div>
+	</div>
+
+	<!--Religion-->
+
+	<div class="container">
+		<div id="religion">
+			<h2><button class="btn btn-lg btn-info" onclick="carouselDisplay('carouselRel', 'normalRel')">Religion</button></h2><small class="text-muted">
+      Click the button
+    </small>
+
+			<div id="carouselRel" class="carousel slide" data-ride="carousel" data-interval="false">
+			  <div class="carousel-inner" id="caroRel">
+			    <div class="carousel-item active">
+			      	<blockquote class="blockquote border-bottom border-left border-right">
+						<p>Quote</p>
+						<p class="blockquote-footer text-right"><cite>Name</cite></p>
+					</blockquote>
+			    </div>
+			    <div class="carousel-item">
+			      	<blockquote class="blockquote border-bottom border-left border-right">
+						<p>Quote</p>
+						<p class="blockquote-footer text-right"><cite>Name</cite></p>
+					</blockquote>
+			    </div>
+			    <div class="carousel-item">
+			      	<blockquote class="blockquote border-bottom border-left border-right">
+						<p>Quote</p>
+						<p class="blockquote-footer text-right"><cite>Name</cite></p>
+					</blockquote>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselRel" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselRel" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+
+			<div id="normalRel">
+				<blockquote class="blockquote border-bottom border-left border-right">
+					<p>Quote</p>
+					<p class="blockquote-footer text-right"><cite>Name</cite></p>
+				</blockquote>
+				<blockquote class="blockquote border-bottom border-left border-right">
+					<p>Quote</p>
+					<p class="blockquote-footer text-right"><cite>Name</cite></p>
+				</blockquote>
+				<blockquote class="blockquote border-bottom border-left border-right">
+					<p>Quote</p>
+					<p class="blockquote-footer text-right"><cite>Name</cite></p>
+				</blockquote>
+			</div>
+		</div>
+		<button class="btn btn-success float-left poreAdd" onclick="addTo('caroRel', 'normalRel', 2)">Add</button>
+		<button class="btn btn-primary float-right" id="relAdd" onclick="addQuotes('#religion', 2)">Add more</button>
+		<div class="clearfix"></div>
+	</div>
+
+	<footer class="container" id="about">This site is under construction. Developed by <em>Jarif Islam</em><a href="https://www.facebook.com/JarifIslam001/"><i class="fab fa-facebook fa-2x"></i></a><span id="arrow">&lt;---</span></footer>
+	<script src="js/allPage.js"></script>
+	<script src="js/quotes.js"></script>
+	</body>
+</html>
